@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/ca_project/CA/compile/CA.erf -d C:/My_Designs/ca_project/CA/compile -s C:/My_Designs/ca_project/library.cfg -j C:/My_Designs/ca_project/CA/projlib.cfg -work CA -O3 -e 100 -work CA -2002 C:/My_Designs/ca_project/CA/src/RAM_4K.vhd 

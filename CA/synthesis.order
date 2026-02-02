@@ -1,0 +1,6 @@
+i<>.\src\Morris_Computer_Top.vhd
+i<>.\src\Datapath.vhd
+i<>.\src\Control_Unit.vhd
+i<>.\src\ALU.vhd
+i<>.\src\RAM_4K.vhd
+i<>.\src\Testbench.vhd

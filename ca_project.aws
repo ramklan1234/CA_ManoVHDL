@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+ca=.\CA\CA.adf
+[Browser]
+sort=order
+mode=desc
+[Order]
+order=1
+macro=
+[Expand]
+ca=1

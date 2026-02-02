@@ -1,0 +1,671 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  8:29 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+run 1 us
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: stopped at time: 1 us
+# add wave -noreg {/Testbench/UUT/s_Data_Bus}
+# add wave -noreg {/Testbench/UUT/s_Address_Bus}
+# add wave -noreg {/Testbench/UUT/s_RAM_Data_In}
+# add wave -noreg {/Testbench/UUT/s_RAM_Data_Out}
+# add wave -noreg {/Testbench/UUT/s_RAM_WE_n}
+# add wave -noreg {/Testbench/UUT/s_PC_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_PC_Inc_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_AR_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_DR_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_AC_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_IR_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_TR_Load_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_ALU_Sel_Out}
+# add wave -noreg {/Testbench/UUT/s_IEN}
+# add wave -noreg {/Testbench/UUT/s_ISR_Address}
+# add wave -noreg {/Testbench/UUT/s_RAM_Read_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_RAM_Write_Ctrl}
+# add wave -noreg {/Testbench/UUT/s_Z_Flag}
+# add wave -noreg {/Testbench/UUT/s_N_Flag}
+# add wave -noreg {/Testbench/UUT/s_P_Flag}
+# add wave -noreg {/Testbench/UUT/s_E_Flag}
+# add wave -noreg {/Testbench/UUT/CLK}
+# add wave -noreg {/Testbench/UUT/RESET}
+# add wave -noreg {/Testbench/UUT/INPR_In}
+# add wave -noreg {/Testbench/UUT/OUTR_Out}
+# add wave -noreg {/Testbench/UUT/INT_In}
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 21 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /Testbench/UUT/s_ISR_Address not found in C:/My_Designs/ca_project/CA/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Testbench/UUT/s_Z_Flag not found in C:/My_Designs/ca_project/CA/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Testbench/UUT/s_N_Flag not found in C:/My_Designs/ca_project/CA/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Testbench/UUT/s_P_Flag not found in C:/My_Designs/ca_project/CA/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /Testbench/UUT/s_E_Flag not found in C:/My_Designs/ca_project/CA/src/wave.asdb.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/CLK" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/INPR_In" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/INT_In" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/OUTR_Out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/RESET" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_AC_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_Address_Bus" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_ALU_Sel_Out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_AR_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_Data_Bus" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_DR_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_IEN" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_IR_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_PC_Inc_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_PC_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_RAM_Data_In" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_RAM_Data_Out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_RAM_Read_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_RAM_WE_n" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_RAM_Write_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Testbench/UUT/s_TR_Load_Ctrl" has already been traced.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 62 object(s) traced.
+# wave -rec *
+run
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 22558728550 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  9:41 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 78 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# wave -rec *
+run
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 2176536770 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  9:44 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 78 object(s) traced.
+# wave -rec *
+run
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 3149561790 ns
+# VSIM: Simulation has finished.
+run 1 us
+# Simulation not initialized
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  9:47 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 78 object(s) traced.
+# wave -rec *
+run 1 us
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: stopped at time: 1 us
+run
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+restart
+endsim
+# KERNEL: stopped at time: 1696040020 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  9:49 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+run
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 787393090 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  9:50 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 78 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# wave -rec *
+run
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__22.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 15338000090 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  10:14 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work CA -2002  $dsn/src/Morris_Computer_Top.vhd $dsn/src/Datapath.vhd $dsn/src/Control_Unit.vhd $dsn/src/ALU.vhd $dsn/src/RAM_4K.vhd $dsn/src/Testbench.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/ca_project/CA/src/Morris_Computer_Top.vhd
+# Compile Entity "Morris_Computer_Top"
+# Compile Architecture "Structural" of Entity "Morris_Computer_Top"
+# File: C:/My_Designs/ca_project/CA/src/Datapath.vhd
+# Compile Entity "Datapath"
+# Compile Architecture "Behavioral" of Entity "Datapath"
+# File: C:/My_Designs/ca_project/CA/src/Control_Unit.vhd
+# Compile Entity "Control_Unit"
+# Compile Architecture "Behavioral" of Entity "Control_Unit"
+# File: C:/My_Designs/ca_project/CA/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd
+# Compile Entity "RAM_4K"
+# Compile Architecture "Behavioral" of Entity "RAM_4K"
+# Error: COMP96_0078: RAM_4K.vhd : (17, 21): Unknown identifier "ram_type".
+# Error: COMP96_0064: RAM_4K.vhd : (17, 21): Unknown type.
+# Error: COMP96_0078: RAM_4K.vhd : (32, 17): Unknown identifier "RAM".
+# Error: COMP96_0133: RAM_4K.vhd : (32, 17): Cannot find object declaration.
+# Error: COMP96_0289: RAM_4K.vhd : (32, 17): Prefix of index must be an array.
+# Error: COMP96_0077: RAM_4K.vhd : (32, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: RAM_4K.vhd : (39, 17): Unknown identifier "RAM".
+# Error: COMP96_0133: RAM_4K.vhd : (39, 17): Cannot find object declaration.
+# File: C:/My_Designs/ca_project/CA/src/Testbench.vhd
+# Compile Entity "Testbench"
+# Compile Architecture "Behavioral" of Entity "Testbench"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work CA -2002  $dsn/src/Morris_Computer_Top.vhd $dsn/src/Datapath.vhd $dsn/src/Control_Unit.vhd $dsn/src/ALU.vhd $dsn/src/RAM_4K.vhd $dsn/src/Testbench.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/ca_project/CA/src/Morris_Computer_Top.vhd
+# Compile Entity "Morris_Computer_Top"
+# Compile Architecture "Structural" of Entity "Morris_Computer_Top"
+# File: C:/My_Designs/ca_project/CA/src/Datapath.vhd
+# Compile Entity "Datapath"
+# Compile Architecture "Behavioral" of Entity "Datapath"
+# File: C:/My_Designs/ca_project/CA/src/Control_Unit.vhd
+# Compile Entity "Control_Unit"
+# Compile Architecture "Behavioral" of Entity "Control_Unit"
+# File: C:/My_Designs/ca_project/CA/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd
+# Compile Entity "RAM_4K"
+# Compile Architecture "Behavioral" of Entity "RAM_4K"
+# File: C:/My_Designs/ca_project/CA/src/Testbench.vhd
+# Compile Entity "Testbench"
+# Compile Architecture "Behavioral" of Entity "Testbench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work CA -2002  $dsn/src/Morris_Computer_Top.vhd $dsn/src/Datapath.vhd $dsn/src/Control_Unit.vhd $dsn/src/ALU.vhd $dsn/src/RAM_4K.vhd $dsn/src/Testbench.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/ca_project/CA/src/Morris_Computer_Top.vhd
+# Compile Entity "Morris_Computer_Top"
+# Compile Architecture "Structural" of Entity "Morris_Computer_Top"
+# File: C:/My_Designs/ca_project/CA/src/Datapath.vhd
+# Compile Entity "Datapath"
+# Compile Architecture "Behavioral" of Entity "Datapath"
+# File: C:/My_Designs/ca_project/CA/src/Control_Unit.vhd
+# Compile Entity "Control_Unit"
+# Compile Architecture "Behavioral" of Entity "Control_Unit"
+# File: C:/My_Designs/ca_project/CA/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd
+# Compile Entity "RAM_4K"
+# Compile Architecture "Behavioral" of Entity "RAM_4K"
+# Error: COMP96_0367: RAM_4K.vhd : (20, 11): Improper array length (14). Expected length is 16.
+# Error: COMP96_0367: RAM_4K.vhd : (21, 11): Improper array length (14). Expected length is 16.
+# Error: COMP96_0367: RAM_4K.vhd : (22, 11): Improper array length (14). Expected length is 16.
+# Error: COMP96_0367: RAM_4K.vhd : (23, 11): Improper array length (14). Expected length is 16.
+# File: C:/My_Designs/ca_project/CA/src/Testbench.vhd
+# Compile Entity "Testbench"
+# Compile Architecture "Behavioral" of Entity "Testbench"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work CA -2002  $dsn/src/Morris_Computer_Top.vhd $dsn/src/Datapath.vhd $dsn/src/Control_Unit.vhd $dsn/src/ALU.vhd $dsn/src/RAM_4K.vhd $dsn/src/Testbench.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/ca_project/CA/src/Morris_Computer_Top.vhd
+# Compile Entity "Morris_Computer_Top"
+# Compile Architecture "Structural" of Entity "Morris_Computer_Top"
+# File: C:/My_Designs/ca_project/CA/src/Datapath.vhd
+# Compile Entity "Datapath"
+# Compile Architecture "Behavioral" of Entity "Datapath"
+# File: C:/My_Designs/ca_project/CA/src/Control_Unit.vhd
+# Compile Entity "Control_Unit"
+# Compile Architecture "Behavioral" of Entity "Control_Unit"
+# File: C:/My_Designs/ca_project/CA/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd
+# Compile Entity "RAM_4K"
+# Compile Architecture "Behavioral" of Entity "RAM_4K"
+# File: C:/My_Designs/ca_project/CA/src/Testbench.vhd
+# Compile Entity "Testbench"
+# Compile Architecture "Behavioral" of Entity "Testbench"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -O3 -e 100 -work CA -2002  $dsn/src/RAM_4K.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd
+# Compile Entity "RAM_4K"
+# Compile Architecture "Behavioral" of Entity "RAM_4K"
+# Error: COMP96_0019: RAM_4K.vhd : (20, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: RAM_4K.vhd : (20, 3): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  10:20 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Testbench Testbench Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 15446 kB (elbread=427 elab2=14879 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\ca_project\CA\src\wave.asdb
+#  10:20 PM, Monday, February 2, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/ca_project/CA/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_ISR_Address" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/s_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/IR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/RAM_Data_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/TR" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/E_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/I_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/INT_Active" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/ISR_Address_Out" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_CONTROL/Z_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/N_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/P_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Parity_Flag" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/temp_result" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/Testbench/UUT/U_DATAPATH/ALU_inst/Z_Flag" does not have read access. Use switch +access +r for this region.
+# VSIM: 78 object(s) traced.
+# wave -rec *
+run
+# EXECUTION:: NOTE   : --- Starting simulation. System in reset ---
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Testbench/UUT/U_RAM,  Process: line__35.
+# EXECUTION:: NOTE   : --- Releasing reset to start CPU program execution ---
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- CPU running normal program ---
+# EXECUTION:: Time: 1100 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Triggering interrupt (setting INT_Signal high) ---
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+# EXECUTION:: NOTE   : --- Final output captured (see waveform) ---
+# EXECUTION:: Time: 5700 ns,  Iteration: 0,  Instance: /Testbench,  Process: Stimulus_Process.
+endsim
+# KERNEL: stopped at time: 1867563530 ns
+# VSIM: Simulation has finished.
+# Waveform file 'C:/My_Designs/ca_project/CA/src/test.awc' connected to 'C:/My_Designs/ca_project/CA/src/test.asdb'.
+# Adding file C:\My_Designs\ca_project\CA\src\test.asdb ... Done
+# Adding file C:\My_Designs\ca_project\CA\src\test.awc ... Done

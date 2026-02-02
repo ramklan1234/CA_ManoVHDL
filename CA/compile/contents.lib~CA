@@ -1,0 +1,14 @@
+40
+~E 1 "../src/ALU.vhd" 5 ALU
+~A 1 "../src/ALU.vhd" 19 Behavioral
+~E 1 "../src/Control_Unit.vhd" 11 Control_Unit
+~A 1 "../src/Control_Unit.vhd" 49 Behavioral
+~E 1 "../src/Datapath.vhd" 5 Datapath
+~A 1 "../src/Datapath.vhd" 39 Behavioral
+~E 1 "../src/Morris_Computer_Top.vhd" 11 Morris_Computer_Top
+~A 1 "../src/Morris_Computer_Top.vhd" 24 Structural
+~A 1 "../src/Morris_Computer_Top.vhd" 16 structure
+~E 1 "../src/RAM_4K.vhd" 5 RAM_4K
+~A 1 "../src/RAM_4K.vhd" 15 Behavioral
+~E 1 "../src/Testbench.vhd" 11 Testbench
+~A 1 "../src/Testbench.vhd" 13 Behavioral

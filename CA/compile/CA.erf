@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/ca_project/CA/src/RAM_4K.vhd" 
+MESSAGE "Compile Entity "RAM_4K"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "RAM_4K"" 
+ERROR COMP96_0019: "Keyword 'begin' expected." "C:/My_Designs/ca_project/CA/src/RAM_4K.vhd" 20 2
+ERROR COMP96_0016: "Design unit declaration expected." "C:/My_Designs/ca_project/CA/src/RAM_4K.vhd" 20 3
+FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]" 

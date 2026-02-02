@@ -1,0 +1,37 @@
+Active-HDL 13.0.375.8320 2026-02-02 22:20:41
+
+Elaboration top modules:
+Architecture                  Behavioral(Testbench)
+
+
+------------------------------------------------------------------------------------------------------
+Entity              | Architecture | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------
+Testbench           | Behavioral   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+Morris_Computer_Top | Structural   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+RAM_4K              | Behavioral   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+Datapath            | Behavioral   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+Control_Unit        | Behavioral   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+ALU                 | Behavioral   | ca      |      | 13.0.375.8320 (Windows64) | -O3
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+VHDL Package                       | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------
+standard                           | std     |      |                           | <unavailable>
+TEXTIO                             | std     |      | 13.0.375.8320 (Windows64) |  -2019
+std_logic_1164                     | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+NUMERIC_STD                        | ieee    |      | 13.0.375.8320 (Windows64) |  -2008
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Library                            | Comment
+------------------------------------------------------------------------------------------------------
+ca                                 | None
+ieee                               | Standard IEEE packages library
+std                                | Standard VHDL library
+------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+Testbench Testbench Behavioral
+
